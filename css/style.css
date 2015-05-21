@@ -1,7 +1,8 @@
 body {
 	text-align: center;  
-	background: url(images/zbread.jpg);
+	background-image: url(images/zbread.jpg);
 	background-size: cover; 
+	background-repeat: no-repeat;
 	color: #ffffff;
 	font-size:16px;
 	font-family: Helvetica, sans-serif;
@@ -13,3 +14,5 @@ h1 {
 	font-weight: 600;
 	font-family: Helvetica, sans-serif;
 }
+
+#slogan {font-style: italic;}
