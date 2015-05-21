@@ -1,12 +1,13 @@
 
 body {
-	text-align: center;  
-	background-image:url('images/zbread.jpg');
-	background-size: cover; 
+	color:#fff;
+	background-image:url('images/background.jpg');
+	background-attachment:fixed;
+	background-size:cover;
 	background-repeat: no-repeat;
-	color: #000000;
 	font-size:16px;
 	font-family: Helvetica, sans-serif;
+	font-weight:100;
 }
 
 h1 {
