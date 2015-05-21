@@ -1,4 +1,4 @@
-
+* {margin:0; padding:0; box-sizing:border-box;}
 body {
 	text-align: center;  
 	background-image: url("../images/zbread.jpg");
@@ -8,19 +8,29 @@ body {
 	font-size: 16px;
 	font-family: Helvetica, sans-serif;
 }
-
+header {
+	
+}
+section {
+	border:1px solid #000;
+	height:500px;
+}
 h1 {
-	color: #ffffff;
 	font-size: 4em;
 	font-weight: 600;
-	font-family: Helvetica, sans-serif;
 }
-
-#slogan {
+h2 {
+	font-size:2em;
+}
+a {
+}
+.logo {
+	
+}
+.slogan {
 	font-style: italic;
 }
 
-.contact{
+#contact h2{
 	text-transform: uppercase;
-	
 }
