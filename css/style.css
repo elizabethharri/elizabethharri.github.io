@@ -2,7 +2,6 @@ body {
 	text-align: center;  
 	background: url(images/zbread.jpg);
 	background-size: cover; 
-	background-color: #0eb892;
 	color: #ffffff;
 	font-size:16px;
 	font-family: Helvetica, sans-serif;
@@ -12,4 +11,5 @@ h1 {
 	color: #ffffff;
 	font-size: 2em;
 	font-weight: 600;
+	font-family: Helvetica, sans-serif;
 }
