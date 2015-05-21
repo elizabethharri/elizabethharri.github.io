@@ -1,7 +1,9 @@
+
+{ margin:0; padding:0; box-sizing:border-box; } 
 body {
 
 	text-align: center;  
-	background-image: url(images/zbread.jpg);
+	background-image: url('images/zbread.jpg');
 	background-size: cover; 
 	background-repeat: no-repeat;
 	color: #000000;
@@ -16,9 +18,10 @@ h1 {
 	font-family: Helvetica, sans-serif;
 }
 
-#slogan 
-	
-	{font-style: italic;}
+#slogan {
+	font-style: italic;
+}
 
-.section 
-	{#text-transform: uppercase;}
+.section {
+	#text-transform: uppercase;
+}
