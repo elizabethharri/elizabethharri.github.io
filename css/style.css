@@ -1,7 +1,7 @@
 
 body {
 	text-align: center;  
-	background-image: url('zbread.jpg');
+	background-image: url("zbread.jpg");
 	background-size: cover; 
 	background-repeat: no-repeat;
 	color: #ffffff;
