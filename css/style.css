@@ -1,17 +1,16 @@
 
 body {
-	color:#fff;
-	background-image:url('images/background.jpg');
-	background-attachment:fixed;
-	background-size:cover;
+	text-align: center;  
+	background: url("images/zbread.jpg");
+	background-size: cover; 
 	background-repeat: no-repeat;
+	color: #ffffff;
 	font-size:16px;
 	font-family: Helvetica, sans-serif;
-	font-weight:100;
 }
 
 h1 {
-	color: #000000;
+	color: #ffffff;
 	font-size: 2em;
 	font-weight: 600;
 	font-family: Helvetica, sans-serif;
