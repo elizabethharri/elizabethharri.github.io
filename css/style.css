@@ -3,7 +3,7 @@
 
 body {
 	color: #000000;
-	font-size: 20px;
+	font-size: 16px;
 	font-family: 'helvetica', sans-serif;
 }
 header {
@@ -65,24 +65,24 @@ a:hover {
 }
 
 #about {
-	background-color: #3d4b61;
+	background-color: #f37920;
 	color: #ffffff;
 	text-align: center;
 	padding: 50px;
 }
 #about p{
-	padding-top: 20px;
+	padding:50px;
 
 }
 
 #contact h2{
-	text-transform: uppercase;
+	padding:50px;
+	height: 400px;
+	background-color: #3d4b61;
+	color: #ffffff;
+	text-align: center;
 }
-#featured {
+#buy {
 	padding: 50px; 
-}
-hr.product{
-	color:  #3d4b61;
-	width: 50px;
-}
+
 
