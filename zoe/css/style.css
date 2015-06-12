@@ -1,4 +1,15 @@
+@import url(http://fonts.googleapis.com/css?family=Reenie+Beanie|Sacramento);
 * {margin:0; padding:0; box-sizing:border-box;}
+
+#logo {
+	padding: 2em;
+}
+
+#logo h1{
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 3em;
+	color: #141414;
+}
 
 #splash {
 	height: 80vh;
