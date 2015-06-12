@@ -1,0 +1,33 @@
+* {margin:0; padding:0; box-sizing:border-box;}
+
+#splash {
+	height: 80vh;
+	background-image: url("../images/camera.jpg");
+	background-size: cover;
+	background-repeat: repeat;
+
+}
+
+	
+
+#gallery {
+	padding: 0;
+}
+
+figure{
+	h3: #ffffff;
+	padding: 0;
+	ma
+}
+
+.square {
+	float: left;
+	width: 25%;
+	display: block;
+}
+
+.horizontal {
+	float: left;
+	width: 50%;
+	display: block;
+}
