@@ -1,17 +1,81 @@
 @import url(http://fonts.googleapis.com/css?family=Reenie+Beanie|Sacramento);
+@import url(http://fonts.googleapis.com/css?family=Dosis:200,400,600);
+
 * {margin:0; padding:0; box-sizing:border-box;}
 
-#logo {
-	padding: 2em;
-}
-
-#logo h1{
-	font-family: 'Reenie Beanie', cursive;
-	font-size: 3em;
+body {
+	font-family: 'Dosis', sans-serif;
 	color: #141414;
 }
+p{
+    padding-bottom: 1em; 
+    line-height: 150%;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    font-weight: 200;
 
-#splash {
+}
+
+h1{
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 3em;
+	color: #fff;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+
+h3 {
+	font-size: 2em;
+	font-weight: 200;
+	letter-spacing: 2.5px;
+}
+
+
+
+h4 {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #5e5e5e;
+	padding-top: 5px;
+}
+#logo {
+	padding: 50px 0px 0px 50px;
+}
+
+header {
+	position: relative;
+}
+
+.header-bar {
+	background-color: #141414;
+	padding: 15px 0;
+	opacity: .6;
+}
+
+nav {
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	position: absolute;
+	right:50px;
+	top: 60px;
+}
+
+nav a {
+	color:#fff;
+	text-decoration: none;
+	padding: 0px 10px 0px 10px;
+}
+
+
+nav a:hover {
+	opacity: .6;
+}
+
+.splash {
 	height: 80vh;
 	background-image: url("../images/camera.jpg");
 	background-size: cover;
@@ -19,22 +83,126 @@
 
 }
 
-	
 
 #gallery {
 	padding: 0;
+	line-height: 0;
 }
 
-figure{
-	h3: #ffffff;
-	padding: 0;
-	ma
+figure {
+	/*float: left;
+	width: 25%;*/
 }
 
-.square {
-	float: left;
+.grid {
+	float:left;
+}
+
+.full {
+	width: 100%;
+}
+
+.one-half {
+	width:50%;
+}
+
+.one-fourth {
 	width: 25%;
+}
+
+.two-third {
+	width: 66%;
+}
+
+.one-third {
+	width: 33.3%;
+}
+
+.blogcontent {
+	padding: 0px 50px 0px 50px;
+	
+}
+.sidebar {
+	
+	border-left: thin solid #ededed;
+	padding: 0px 50px 0px 50px;
+}
+
+
+.clear {
+	clear:both;
+}
+
+.post img {
+	width: 100%;
+	padding: 40px 0px 20px 0px;
+
+}
+
+.post {
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ededed;
+}
+
+
+
+.about {
 	display: block;
+
+}
+.sidebar h2{
+	font-family: 'Reenie Beanie', cursive;
+	text-align: center;
+}
+
+.about img {
+	width: 100%;
+	margin: auto;
+	padding: 30px 0px 30px 0px;
+
+}
+.sidenav {
+	margin-top: 20px;
+	border-top: 1px solid #fff;
+	padding-top: 30px;
+
+}
+
+.sidebar a{
+	color: #141414;
+	text-decoration: none;
+}
+
+.sidebar a:hover{
+	opacity: .8;
+}
+
+.sidenav ul{
+	list-style: none outside none;
+	line-height: 2em;
+	text-align: center;
+	padding-top: 1.5em;
+}
+
+.follow{
+	margin-top: 20px;
+	border-top: 1px solid #fff;
+	padding-top: 30px;
+
+}
+
+.wrapper {
+	max-width: 1600px;
+	margin: 0px 60px 0px 60px;
+
+}
+
+figure img {
+	width: 100%;
+	height: auto;
+	border:1px solid #fff;
+	max-width: 100%;	
 }
 
 .horizontal {
@@ -42,3 +210,23 @@ figure{
 	width: 50%;
 	display: block;
 }
+footer {
+	background-color: #141414;
+	text-align: center;
+	margin: auto;
+	padding: 50px 0px 50px 0px;
+	color: #ffffff;
+	font-weight: 200;
+	line-height: 2em;
+	letter-spacing: .2em;
+}
+
+.blogheader {
+	background-color: #141414;
+	opacity: 1;
+	padding-bottom: 20px;
+	margin-bottom: 50px;
+}
+
+
+
