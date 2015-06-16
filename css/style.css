@@ -1,23 +1,23 @@
-@import url(http://fonts.googleapis.com/css?family=Abel);
+@import url(http://fonts.googleapis.com/css?family=Grand+Hotel);
+@import url(http://fonts.googleapis.com/css?family=Lato:200,300,400,700);
 * {margin:0; padding:0; box-sizing:border-box;}
 
 body {
-	color: #000000;
+	color: #2c333c;
 	font-size: 16px;
-	font-family: 'helvetica', sans-serif;
+	font-family: 'Lato', sans-serif;
+	font-weight: 200;
 }
 header {
 	position: relative;
 }
 .header-bar {
-	background-image: url("../images/white.jpg");
+	
 	color: #141414;
-	position: relative;
-	padding: 15px 0;
+	background-color: #fff;
+	height: 20%;
 }
-.header-bar img{
-	opacity: .5;
-}
+
 
 .logo {
 	padding: 20px;
@@ -30,6 +30,7 @@ header {
 nav {
 	padding: 20px;
 	font-size: 1.5em;
+	font-weight: 700;
 	word-spacing: 40px; 
 	position: absolute;
 	right:50px;
@@ -37,77 +38,144 @@ nav {
 
 }
 nav a{ 
-	color: #141414;
+	color: #414e64;
 	text-decoration: none;}
 
 h1 {
 	font-size: 4em;
-	font-family: 'Abel', sans-serif;
+	font-family: 'Grand Hotel', cursive;
 	line-height: 1.5em;	
 }
 h2 {
-	font-size: 2em;
+	font-size: 3em;
 	line-height: 1.5em;
-	font-family: 'Abel', sans-serif;}
+	font-family: 'Grand Hotel', cursive;
 	text-align: center;
+	padding-bottom: 10px;
 
+}
+h4{
+	font-size: 2em;
+	padding-top: 10px;
+	font-weight: 200;
+
+}
 
 p {
 	line-height: 1.5em;
-	font-size: 1.5em;
-	font-weight: 100;
 }
+
 a{ 
 	color: #3d4b61;
 	text-decoration: none;
 
 }
 a:hover {
-	color: #f8971f;
+	color: #c38027;
 }
 
-
 #splash {
-	padding: 4em 2em;
-	height: 80vh;
-	background-image: url("../images/zbreadvideo.jpg");
+	height: 800px;
+	background-image: url("../images/zbread.jpg");
 	background-size: cover; 
 	background-repeat: no-repeat;
 	color: #ffffff
 }
 
+
 #about {
-	background-color: #f37920;
+	background-color: #c38027;
 	color: #ffffff;
 	text-align: center;
 	padding: 50px;
+	
 }
 #about p{
-	padding:50px;
+	font-size: 1.5em;
+}
 
+#buy {
+	padding: 50px;
+	margin: auto;
 }
 .wrapper {
-	max-width: 1600px;
-	margin: 0px 60px 0px 60px;
-
+	max-width: 1200px;
+	margin: 0px 100px 0px 100px;
 }
+
 .product {
 	float: left;
 	width: 33%;
-	padding: 0px 40px 0px 40px;
-	margin: 20px 0px 20px 0px;
+	padding: 40px; 
 }
 
+.product h5{
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #c38027;
+	font-weight: 700;
+	font-size: 1em;
+}
+.product p{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#buy h4 {
+	text-align: center;
+}
 .product img {
 	width: 100%;
+
 }
 
-.buy {
-	padding: 50px; 
+.buybutton {
+	display: block;
+	border: 2px solid #c38027;
+	width: 30%;
+	padding: 10px;
+	text-align: center;
+	margin: auto;
 }
 
-.clear: {
+.buybutton:hover {
+	background-color: #c38027;
+}
+.buybutton a{
+	font-weight: 400;
+}
+.buybutton a:hover{
+	color: #fff;
+}
+
+.clear {
 	clear:both;
 }
 
 
+#bake {
+	background-color: #3d4c62;
+	color: #fff;
+	padding: 50px;
+	height: 400px;
+}	
+
+.instagram {
+	width: 25%;
+	float: left;
+}
+
+figure img{
+	width: 100%;
+	border: thin solid #fff;
+	display: block;
+	
+}
+
+footer{
+	background-color: #c38027;
+	height: 100px;
+	text-align: center;
+	padding: 50px;
+}
