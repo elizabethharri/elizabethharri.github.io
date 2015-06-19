@@ -149,11 +149,6 @@ a:hover {
 	color: #fff;
 }
 
-.clear {
-	clear:both;
-}
-
-
 #bake {
 	background-color: #3d4c62;
 	color: #fff;
@@ -178,4 +173,11 @@ footer{
 	height: 100px;
 	text-align: center;
 	padding: 50px;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
 }
