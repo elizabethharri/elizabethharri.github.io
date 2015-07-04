@@ -1,0 +1,184 @@
+@import url(http://fonts.googleapis.com/css?family=Grand+Hotel);
+@import url(http://fonts.googleapis.com/css?family=Lato:200,300,400,700);
+* {margin:0; padding:0; box-sizing:border-box;}
+
+body {
+	color: #2c333c;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 200;
+}
+header {
+	position: relative;
+	background: #131313;
+}
+
+
+#splash {
+	height: 800px;
+	background-image: url("../images/zbread.jpg");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	color: #ffffff
+
+}
+
+.logo {
+	padding: 1em 0em 1em 2em;
+	width: 25%;
+}
+.logo img {
+	width: 100%;
+}
+
+nav {
+	padding: 20px;
+	font-size: 1.5em;
+	color: #fff;
+	font-weight: 700;
+	word-spacing: 40px; 
+	position: absolute;
+	right:3em;
+	top: 3em;
+
+}
+nav a{ 
+	color: #fff;
+	text-decoration: none;}
+
+nav a:hover{
+	color: #c38027;
+}
+
+h1 {
+	font-size: 4em;
+	font-family: 'Grand Hotel', cursive;
+	line-height: 1.5em;	
+}
+h2 {
+	font-size: 3em;
+	line-height: 1.5em;
+	font-family: 'Grand Hotel', cursive;
+	text-align: center;
+	padding-bottom: 10px;
+
+}
+h4{
+	font-size: 2em;
+	padding-top: 10px;
+	font-weight: 200;
+
+}
+
+p {
+	line-height: 1.5em;
+}
+
+a{ 
+	text-decoration: none;
+
+}
+
+
+
+#about {
+	background-color: #c38027;
+	color: #ffffff;
+	text-align: center;
+	padding: 3em;
+	
+}
+#about p{
+	font-size: 1.5em;
+}
+
+#buy {
+	padding: 50px;
+	margin: auto;
+}
+.wrapper {
+	max-width: 75%;
+	margin: 0px auto;
+}
+.wrapper2 {
+	max-width: 80%;
+	margin: 0px auto;
+}
+
+.product {
+	float: left;
+	width: 33%;
+	padding: 3em; 
+}
+
+.product h5{
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #c38027;
+	font-weight: 700;
+	font-size: 1em;
+}
+.product p{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#buy h4 {
+	text-align: center;
+}
+.product img {
+	width: 100%;
+
+}
+
+.buybutton {
+	display: block;
+	border: 2px solid #c38027;
+	width: 40%;
+	padding: 1em;
+	text-align: center;
+	margin: auto;
+	font-size: 12px;
+}
+
+
+.buybutton:hover {
+	background-color: #c38027;
+	color: #fff;
+
+}
+
+
+#bake {
+	background-color: #3d4c62;
+	color: #fff;
+	padding: 50px;
+	height: 400px;
+}	
+
+.instagram {
+	width: 25%;
+	float: left;
+}
+
+figure img{
+	width: 100%;
+	border: thin solid #fff;
+	display: block;
+	
+}
+
+footer{
+	background-color: #c38027;
+	height: 100px;
+	text-align: center;
+	padding: 50px;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}

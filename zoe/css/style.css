@@ -193,10 +193,9 @@ figure {
 
 }
 
-.wrapper {
+#wrapper {
 	max-width: 1200px;
 	margin: 0px 60px 0px 60px;
-
 }
 
 figure img {

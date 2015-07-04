@@ -1,184 +1,272 @@
-@import url(http://fonts.googleapis.com/css?family=Grand+Hotel);
-@import url(http://fonts.googleapis.com/css?family=Lato:200,300,400,700);
+@import url(http://fonts.googleapis.com/css?family=PT+Mono);
+@import url(http://fonts.googleapis.com/css?family=Istok+Web:400,700|Karla:400,700|Pontano+Sans);
 * {margin:0; padding:0; box-sizing:border-box;}
 
-body {
-	color: #2c333c;
-	font-size: 16px;
-	font-family: 'Lato', sans-serif;
-	font-weight: 200;
-}
-header {
-	position: relative;
-}
-.header-bar {
-	
-	color: #141414;
-	background-color: #fff;
-	height: 20%;
-}
-
-
-.logo {
-	padding: 1em 0 1em 3em;
-	width: 25%;
-}
-.logo img {
-	width: 100%;
-}
-
-nav {
-	padding: 20px;
-	font-size: 1.5em;
-	font-weight: 700;
-	word-spacing: 40px; 
-	position: absolute;
-	right:3em;
-	top: 3em;
+body{
+	font-size: 12px;
+	color: #242523;
+	font-family: 'Istok Web', sans-serif;
 
 }
-nav a{ 
-	color: #414e64;
-	text-decoration: none;}
 
-h1 {
-	font-size: 4em;
-	font-family: 'Grand Hotel', cursive;
-	line-height: 1.5em;	
-}
-h2 {
+h1{
 	font-size: 3em;
-	line-height: 1.5em;
-	font-family: 'Grand Hotel', cursive;
+	font-family: 'PT Mono', Arial, serif; 
+}
+h2{
+	font-size: 2.5em;
+	padding: 1em 0em;
+	font-family: 'PT Mono', Arial, serif; 
+	letter-spacing: .5em;
+	text-transform: capitalize;
 	text-align: center;
-	padding-bottom: 10px;
 
 }
-h4{
+
+h3{
 	font-size: 2em;
-	padding-top: 10px;
-	font-weight: 200;
+	font-family: 'PT Mono', Arial, serif; 
+	padding-bottom: 2em;
+	text-align: center;
+
+
+}
+h4 {
+	font-size: 1.6em;
+	font-family: 'PT Mono', Arial, serif; 
+	padding-bottom: 1em;
 
 }
 
 p {
-	line-height: 1.5em;
-}
+    padding-bottom: 1em; 
+    line-height: 150%;
+    font-size: 1.3em;
 
-a{ 
-	color: #3d4b61;
+}
+a {
 	text-decoration: none;
+	color: #e84f5e;
+	font-family: 'Istok Web', sans-serif;
+}
+
+a:hover {
+	color: #2eacb3;
+}
+header {
+	position: relative;
+}
+
+section{
+	padding: 3em 0em;
+	p
 
 }
-a:hover {
-	color: #c38027;
+
+.wrapper {
+	width: 75%;
+	margin: 0 auto;
+}
+
+nav {
+	font-family: 'PT Mono', Arial, serif; 
+	padding-top: 3em;
+	text-align: center;
+	position: attached;
+}
+
+nav a {
+	font-family: 'PT Mono', Arial, serif; 	
+	text-decoration: none;
+	color: #242523;
+	font-size: 1.5em;
+	padding: 0em 3em;
+
+
+
+}
+nav a:hover{
+	color: #e84f5e;
+}
+
+.button {
+	display: block;
+	border: 2px solid #000;
+	width: 40%;
+	padding: 1em;
+	text-align: center;
+	margin: auto;
+	font-size: 12px;
+}
+
+
+.buybutton:hover {
+	background-color: #2eacb3;
+	color: #fff;
+
+}
+
+
+figure img {
+	width: 100%;
+	height: auto;
+	border:1px solid #fff;
+	max-width: 100%;	
+	position: relative;
 }
 
 #splash {
-	height: 800px;
-	background-image: url("../images/zbread.jpg");
+	height: 600px;
+	background-image: url("../images/splash.jpeg");
 	background-size: cover; 
 	background-repeat: no-repeat;
 	color: #ffffff
 
 }
 
-
-#about {
-	background-color: #c38027;
-	color: #ffffff;
-	text-align: center;
-	padding: 50px;
-	
-}
-#about p{
-	font-size: 1.5em;
+.logo {
+	margin: 5em auto;
+	width: 50%;
 }
 
-#buy {
-	padding: 50px;
-	margin: auto;
-}
-.wrapper {
-	max-width: 75%;
-	margin: 0px auto;
-}
-
-.product {
-	float: left;
-	width: 33%;
-	padding: 40px; 
-}
-
-.product h5{
-	padding: 20px 0px 20px 0px;
-	text-align: center;
-	text-transform: uppercase;
-	color: #c38027;
-	font-weight: 700;
-	font-size: 1em;
-}
-.product p{
-	text-align: center;
-	padding-bottom: 20px;
-}
-
-#buy h4 {
-	text-align: center;
-}
-.product img {
+.logo img {
 	width: 100%;
-
 }
 
-.buybutton {
-	display: block;
-	border: 2px solid #c38027;
-	width: 30%;
-	padding: 10px;
-	text-align: center;
-	margin: auto;
+
+.grid {
+	float:left;
 }
 
-.buybutton:hover {
-	background-color: #c38027;
-}
-.buybutton a{
-	font-weight: 400;
-}
-.buybutton a:hover{
-	color: #fff;
+.full {
+	width: 100%;
 }
 
-#bake {
-	background-color: #3d4c62;
-	color: #fff;
-	padding: 50px;
-	height: 400px;
-}	
+.one-half {
+	width:50%;
+}
 
-.instagram {
+.one-fourth {
 	width: 25%;
-	float: left;
 }
 
-figure img{
+.three-fourth {
+	width: 75%;
+	float: right;
+}
+
+.two-third {
+	width: 66%;
+}
+
+.one-third {
+	width: 33%;
+}
+
+#me {
+	background-color: #b3ccba;
+}
+
+#me img{
 	width: 100%;
-	border: thin solid #fff;
-	display: block;
-	
 }
 
-footer{
-	background-color: #c38027;
-	height: 100px;
-	text-align: center;
-	padding: 50px;
+#me .grid{
+	margin: 2em 0em;
 }
-.clearfix:after { 
-	content: "."; 
-	visibility: hidden; 
-	display: block; 
-	height: 0; 
-	clear: both;
+
+#me .one-third{
+	padding: 0em 3em;
+}
+
+#me .two-third{
+	padding: 0em 3em;
+}
+
+
+#work p {
+	display: block;
+	padding: 1em 0em;
+}
+#work h2, h3{
+	text-align: center;
+	color: #242523;
+}
+#work h4 {
+	display: block;
+	padding: 1em 0em;
+}
+
+#work img{
+	width: 100%;
+	padding: 2em 0em;
+}
+
+#work .one-half{
+	padding: 0em 4em;
+}
+
+
+#life{
+	background-color: #f3eb54;
+}
+
+
+#gallery{
+	padding: 3em 0em;
+	line-height: 0;
+	position:relative;
+	overflow: hidden;
+}
+
+
+
+#thoughts img{
+
+	width: 100%;
+	padding-bottom: 2em;
+
+}
+
+#thoughts .one-third{
+
+	padding: 2em;
+}
+
+.contact {
+	float: left;
+	width: 75%;
+	display: block;
+
+}
+
+.footer-nav {
+	float: right;
+	display: block;
+}
+
+.footer-nav a{
+	color: #fff;
+}
+
+.footer-nav a:hover{
+	color: #434444;
+}
+
+footer {
+	background-color: #e84f5e;
+	padding: 5em;
+	color: #fff;
+}
+
+
+
+footer h4{
+	padding-bottom: .2em;
+}
+
+
+
+.clear {
+	clear:both;
 }
