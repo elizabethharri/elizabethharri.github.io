@@ -14,8 +14,8 @@ h1{
 	font-family: 'PT Mono', Arial, serif; 
 }
 h2{
-	font-size: 2.5em;
-	padding: 1em 0em;
+	font-size: 3em;
+	padding: 1em 0em 2em 0em;
 	font-family: 'PT Mono', Arial, serif; 
 	letter-spacing: .5em;
 	text-transform: uppercase;
@@ -225,19 +225,33 @@ figure img {
 	display: block;
 	padding: 1em 0em;
 }
-#work h2, h3{
+.title h2, h3{
 	text-align: center;
 	color: #242523;
+	position: relative;
 }
 #work h4 {
 	display: block;
 	padding: 1em 0em;
 }
 
+
 #work img{
 	width: 100%;
 	padding: 2em 0em;
 }
+
+.title h1:before, .title h2:before { 
+	content: "";
+	display: block; 
+	position: absolute; 
+	left: 50%; 
+	bottom: 0; 
+	width: 59px; 
+	height: 2px; 
+	margin: 0 0 1.2em -29.5px; 
+	background: rgba(36, 37, 35, 0.47) }
+
 
 #work .one-half{
 	padding: 4em 4em;
@@ -276,31 +290,19 @@ figure img {
 	padding: 2em;
 }
 
-.contact {
-	float: left;
-	width: 75%;
+.footerwrap{
+	width: 50%;
 	display: block;
-
+	margin: 0em auto;
 }
 
-.footer-nav {
-	float: right;
-	display: block;
-}
-
-.footer-nav a{
-	color: #fff;
-	padding: 0em;
-}
-
-.footer-nav a:hover{
-	color: #434444;
-}
 
 footer {
-	background-color: #2eacb3;
-	padding: 5em;
+	background-image: url("../images/footer.jpg");
+	background-size: cover; 
+	background-repeat: no-repeat;
 	color: #fff;
+	text-align: center;
 }
 
 
@@ -313,8 +315,9 @@ footer a{
 	color: #fff;
 	padding-right: 1em;
 }
-
-
+footer img{
+	width: 50%;
+}
 .clear {
 	clear:both;
 }
