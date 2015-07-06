@@ -128,9 +128,13 @@ figcaption {
 .gray {
 	background-color: rgba(36, 37, 35, 0.85)
 }
+
+.gray h3{
+	color: #fff;
+}
 figcaption h3{
 	font-size: 3em;
-	color: #fff;
+	color: #242523;
 	text-align: center;
 	text-transform: uppercase;
 	line-height: 2em;
