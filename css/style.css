@@ -41,7 +41,7 @@ h4 {
 p {
     padding-bottom: 1em; 
     line-height: 150%;
-    font-size: 1.3em;
+    font-size: 1.5em;
 
 }
 a {
@@ -214,10 +214,7 @@ figure img {
 #gallery{
 	padding: 3em 0em;
 	line-height: 0;
-	position:relative;
-	overflow: hidden;
 }
-
 
 
 #thoughts img{
