@@ -294,6 +294,8 @@ figure img {
 	width: 50%;
 	display: block;
 	margin: 0em auto;
+	padding: 3em;
+
 }
 
 
@@ -314,6 +316,7 @@ footer h4{
 footer a{
 	color: #fff;
 	padding-right: 1em;
+
 }
 footer img{
 	width: 50%;
