@@ -243,6 +243,7 @@ figure img {
 
 .footer-nav a{
 	color: #fff;
+	padding: 0em;
 }
 
 .footer-nav a:hover{
@@ -263,6 +264,7 @@ footer h4{
 
 footer a{
 	color: #fff;
+	padding-right: 1em;
 }
 
 
