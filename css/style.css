@@ -175,12 +175,11 @@ figure img {
 	margin: 2em 0em;
 }
 
-#me .one-third{
-	padding: 0em 3em;
-}
-
 #me .two-third{
-	padding: 0em 3em;
+	padding: 2em;
+  	max-width: 55%;
+  	margin: 0em auto;
+  	float: right;
 }
 
 
