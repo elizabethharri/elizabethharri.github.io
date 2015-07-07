@@ -132,16 +132,18 @@ figcaption {
 .gray h3{
 	color: #fff;
 }
+
+.spain h3 {
+	padding: 2.5em 1em 0em 1em;
+}
 figcaption h3{
 	font-size: 3em;
 	color: #242523;
 	text-align: center;
-	text-transform: uppercase;
-	line-height: 2em;
-	padding: 4em 1em;
-	letter-spacing: 0;
-	padding-bottom: 0em;
+	line-height: 1.5em;
+	padding: 4em 1em 0em 1em;
 }
+
 
 figcaption p{
 	font-family: 'PT Mono', Arial, serif; 
