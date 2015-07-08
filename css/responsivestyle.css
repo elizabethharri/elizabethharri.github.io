@@ -1,17 +1,14 @@
 @media only screen and (max-width:768px) {
   
-	body {
-		font-size: 10px;
-	}
 	h3 {
 		font-size: 1.5em;
 	}
 	h4 {
-	font-size: 1.4em;
+	font-size: 1.3em;
 	}
 
 	p{
-		font-size: 1.4em;
+		font-size: 1.3em;
 	}
 
 	#me img{
@@ -24,15 +21,15 @@
     }
 	
 	#me .one-third{
-	width: 60%;
-	float: none;
-	margin: 0 auto;
+		width: 60%;
+		float: none;
+		margin: 0 auto;
 	}
 
 	#me .two-third{
 		float: none;
 		padding: 2em 0em;
-		width: 100%;
+		width: 90%;
 		text-align: center;
 		margin: 0 auto;
 
@@ -58,12 +55,81 @@
 		color: #fff;
 		text-align: center;
 		padding: 1em 1em;
-		font-size: 1em;
+		font-size: .8em;
 }
 
 	footer img{
 		width: 75%;
-}
 	}
 
+}
+
+@media only screen and (max-width:480px) {
+
+	section{
+		padding: 3em 0em 3em 0em;
+}
+
+	
+	p{
+		font-size: 1.1em;
+		line-height: 1.5em;
+	}
+	#splash {
+		height: 300px;
+	}
+
+	.grid{
+		float: none;
+	}
+	
+	.wrapper {
+		width: 85%;
+	}
+
+	#work .one-half{
+
+		padding: 3em 3em 0em 3em;
+		width: 100%;
+		text-align: center;
+		margin: 1.5em auto;
+		min-height: 42em;
+	}
+
+	#work img {
+		padding: 1em 0em 2em 0em;
+	}
+
+	}
+	#work h4 {
+		font-size: 1.6em;
+		font-family: 'PT Mono', Arial, serif; 
+		padding: 0em 0em 1em 0em;
+	}
+
+	#gallery .one-half {
+		width: 100%;
+
+	}
+	#gallery .one-fourth{
+		width: 50%;
+		float: left;
+	}
+
+	.vertical {
+		width: 100%;
+
+	}
+	.vertical img {
+		display: none;
+	}
+
+	#thoughts .one-third{
+
+		width: 100%;
+		margin: 3em auto;
+		padding: 0em;
+	}
+	
+	
 }

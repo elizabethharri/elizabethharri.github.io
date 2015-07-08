@@ -3,7 +3,7 @@
 * {margin:0; padding:0; box-sizing:border-box;}
 
 body{
-	font-size: 12px;
+	font-size: 14px;
 	color: #242523;
 	font-family: 'Istok Web', sans-serif;
 
@@ -15,7 +15,7 @@ h1{
 }
 h2{
 	font-size: 2.5em;
-	padding: 1em 0em 2em 0em;
+	padding-bottom: 2em;
 	font-family: 'PT Mono', Arial, serif; 
 	letter-spacing: .5em;
 	text-transform: uppercase;
@@ -41,7 +41,7 @@ h4 {
 p {
     padding-bottom: 1em; 
     line-height: 150%;
-    font-size: 1.5em;
+    font-size: 1.3em;
 
 }
 
@@ -65,7 +65,7 @@ header {
 }
 
 section{
-	padding: 3em 0em 5em 0em;
+	padding: 5em 0em 5em 0em;
 
 }
 
@@ -145,6 +145,9 @@ nav a:hover{
 }
 
 .one-fourth {
+	width: 25%;
+}
+.vertical {
 	width: 25%;
 }
 
