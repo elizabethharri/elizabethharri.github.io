@@ -44,6 +44,25 @@ p {
     font-size: 1.3em;
 
 }
+.homelink {
+	position: fixed;
+	right: 1em;
+	bottom: 2em;
+}
+.homelink a{
+	color: #fff;
+	background-color: #242523;
+	padding: .6em;
+	font-size: .7em;
+	border-radius: .5em;
+}
+
+.homelink a:hover{
+
+	background-color: #e84f5e;
+	color: #fff;
+
+}
 
 .title h2, h3{
 	text-align: center;
@@ -213,9 +232,11 @@ nav a:hover{
 #work .one-half{
 	padding: 4em 4em 0em 4em;
 	min-height: 56em;
-	margin: .3em;
+	margin: .5em;
 	width: 48%;
+	box-shadow: 1px 1px 1px 1px rgba(136, 136, 136, 0.63);
 }
+
 
 .work1 {
 	background-color: #434444;
@@ -299,7 +320,9 @@ figure img {
 #thoughts img{
 
 	width: 100%;
-	padding-bottom: 2em;
+	margin-bottom: 2em;
+	box-shadow: 1px 1px 1px 1px rgba(136, 136, 136, 0.63);
+
 
 }
 
