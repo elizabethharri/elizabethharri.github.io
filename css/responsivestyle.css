@@ -12,10 +12,6 @@
 		width: 80%;
 	}
 
-	#splash {
-		height: 500px;
-	}
-
 	h3 {
 		font-size: 1.7em;
 }
@@ -48,17 +44,14 @@
 	padding: 2em 2em;
 	}
 
-	#splash {
-		height: 400px;
-
-    }
     nav{
     	padding-top: 1.5em;
     }
 
     .logo {
 	margin: 2em auto;
-	width: 60%;
+	width: 50%;
+	padding-top: 2em;
 
 }
 
@@ -107,17 +100,14 @@
 
 	.logo {
 		margin: 0 auto;
-		width: 70%;
+		width: 50%;
 	}
 	nav a{	
 		font-size: 1.1em;
 		padding: 0em 1em;
 
 	}	
-	#splash {
-	height: 300px;
-
-    }
+	
    section {
   	padding: 4em 0em 4em 0em;
 	}
