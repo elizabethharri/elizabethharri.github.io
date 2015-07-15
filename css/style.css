@@ -116,7 +116,7 @@ nav a:hover{
 
 
 #splash {
-	height: 600px;
+	height: 700px;
 	background-image: url("../images/splash.jpeg");
 	background-size: cover; 
 	background-repeat: no-repeat;
@@ -212,7 +212,9 @@ nav a:hover{
 
 #work .one-half{
 	padding: 4em 4em 0em 4em;
-	min-height: 60em;
+	min-height: 56em;
+	margin: .3em;
+	width: 48%;
 }
 
 .work1 {

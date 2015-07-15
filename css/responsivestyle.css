@@ -1,6 +1,38 @@
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:1400px) {
+
+	#work .one-half{
+		padding: 3em 3em 0em 3em;
+		min-height: 53em;
+		margin: .5em;
+		width: 47%;
+	}
+
+	.wrapper {
+		width: 80%;
+	}
+
+	#splash {
+		height: 500px;
+	}
+
+	h3 {
+		font-size: 1.7em;
+}
+
+	.footerwrap{
+		width: 80%;
+
+	}
+
+@media only screen and (max-width:790px) {
   
+	nav a{	
+	font-size: 1.2em;
+	padding: 0em 2em;
+
+	}	
+
 	h3 {
 		font-size: 1.5em;
 	}
@@ -17,9 +49,18 @@
 	}
 
 	#splash {
-	height: 400px;
+		height: 400px;
 
     }
+    nav{
+    	padding-top: 1.5em;
+    }
+
+    .logo {
+	margin: 2em auto;
+	width: 60%;
+}
+
 	
 	#me .one-third{
 		width: 60%;
@@ -36,14 +77,10 @@
 
 	}
 
-
 	.wrapper {
 		width: 90%;
 	}
 
-	#work .one-half{
-		min-height: 55em;
-	}
 
 	figcaption h3{
 		line-height: 1.2em;
@@ -60,17 +97,30 @@
 }
 
 	footer img{
-		width: 75%;
+		width: 80%;
 	}
 
-}
-
-@media only screen and (max-width:480px) {
-
-	section{
-		padding: 3em 0em 3em 0em;
+	footer h4{
+		font-size: 1.2em;
 	}
 
+	.logo {
+		margin: 0 auto;
+		width: 70%;
+	}
+	nav a{	
+		font-size: 1.1em;
+		padding: 0em 1em;
+
+	}	
+	#splash {
+	height: 300px;
+
+    }
+   section {
+  	padding: 4em 0em 4em 0em;
+	}
+	
 	h3 {
 		line-height: 1.2em;
 		font-size: 1.1em;
@@ -88,6 +138,49 @@
 		line-height: 1.5em;
 	}
 
+	.wrapper {
+		width: 80%;
+	}
+
+	#thoughts .one-third {
+
+		width: 100%;
+		margin: 3em auto;
+		padding: 0em;
+		float: none;
+	}
+
+	#work .one-half{
+
+		padding: 3em 3em 0em 3em;
+		width: 100%;
+		text-align: center;
+		margin: 1.5em auto;
+		min-height: 42em;
+		float: none;
+	}
+
+	#work img {
+		padding: 1em 0em 2em 0em;
+	}
+
+
+	#work h4 {
+		font-size: 1.4em;
+		padding: 0em 0em 1em 0em;
+	}
+
+}
+
+
+@media only screen and (max-width:490px) {
+
+	section{
+		padding: 3em 0em 3em 0em;
+	}
+
+
+
 	.grid{
 		float: none;
 	}
@@ -101,33 +194,13 @@
 
 	}
 
-
-	#work .one-half{
-
-		padding: 3em 3em 0em 3em;
-		width: 100%;
-		text-align: center;
-		margin: 1.5em auto;
-		min-height: 42em;
-	}
-
-	#work img {
-		padding: 1em 0em 2em 0em;
-	}
-
-
-	#work h4 {
-		font-size: 1.4em;
-		padding: 0em 0em 1em 0em;
-	}
-
 	#gallery .one-half {
 		width: 100%;
 
 	}
 	#gallery .one-fourth{
-		width: 50%;
-		float: left;
+		width: 100%;
+		float: none;
 	}
 
 	.vertical {
@@ -138,33 +211,38 @@
 		display: none;
 	}
 
-	#thoughts .one-third {
 
-		width: 100%;
-		margin: 3em auto;
-		padding: 0em;
-	}
 	
 	figcaption {
 
 		background-color: rgba(247, 240, 221, 0.8);
 		opacity: 1;
 		position: absolute;
-		top: 10em;
+		top: 70%;
 		width: 100%;
-		height: 20%;
+		height: 3em;
 		display: block;
 
 	}
 
 	figcaption h3{
-		padding: 1em 0 0 0;
 		font-size: 1em;
+		padding: 1em;
 	}
 
+	
+	
+	.spain h3 {
+  		padding: 1em;
+	}
+	.spain p{
+		display: none;
+	}
+	
 	.logo{
-		margin: 1em 0em .5em 1em;
-		width: 45%;
+		
+		margin: 1em auto;
+		width: 50%;
 		padding: 0em;
 	}
 
@@ -172,6 +250,17 @@
 		width: 100%;
 	}
 
+	footer img{
+		width: 85%;
+	}
+
+	footer h4{
+		font-size: 1em;
+	}
+
+	.footerwrap{
+		width: 100%;
+	}
 	
 	nav {
 		display: none;
@@ -179,23 +268,27 @@
 
 	#splash {
 		display: none;
-		margin-top: 2em;
+	}
+
+	#mobile-splash {
+		background-image: url("../images/splash.jpeg");
+		background-size: cover; 
+		background-repeat: no-repeat;
 	}
 
 	.responsive {
 		display: block;
 	}
 
-	.responsive-nav {
+	.mobilenav {
 		display: block;
 		padding-top: 1em;
 		padding-bottom: 2em;
 		text-align: center;
-	
 
 	}
 
-	.responsive a{
+	.mobilenav a{
 		font-size: 1em;
 		padding: 1em;	
 		width: 49.5%;
@@ -204,20 +297,43 @@
 		color: #fff;
 		margin: .05em;
 	}
+
+	.mobilenav a:hover{
+		color: #fff;
+	}
+
+	.navbeige a:hover{
+		color: #242523;
+	}
 	
+	.navgreen a:hover{
+		color: #242523;
+	}
+
+	.navgreen a{
+
+		background-color: #b3ccba;
+		color: #242523;
+	}
+	.navpink a{
+		background-color: #e84f5e;
+	}
+	.navbeige a{
+		background-color: #f7f0dd;
+		color: #242523;
+	}
+
+
 	.responsive img{
 		width: 100%
 	}
 
-	.responsive a:hover {
 
-		background-color: #e84f5e;
-		color: #fff;
-
-	}
+	
 	header {
 		margin-bottom: 1em;
 	}
+
 
 	
 }
