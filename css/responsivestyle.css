@@ -59,7 +59,17 @@
     .logo {
 	margin: 2em auto;
 	width: 60%;
+
 }
+/*
+	.splashmobile {
+	background-image: url("../images/splash.jpeg");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	height: 200px;
+	margin: 0em;
+}
+*/
 
 	
 	#me .one-third{
@@ -241,8 +251,8 @@
 	
 	.logo{
 		
-		margin: 1em auto;
-		width: 50%;
+		margin: 1em;
+		width: 60%;
 		padding: 0em;
 	}
 
@@ -270,37 +280,32 @@
 		display: none;
 	}
 
-	#mobile-splash {
-		background-image: url("../images/splash.jpeg");
-		background-size: cover; 
-		background-repeat: no-repeat;
-	}
-
 	.responsive {
 		display: block;
 	}
 
 	.mobilenav {
 		display: block;
-		padding-top: 1em;
+		padding-top: 0em;
 		padding-bottom: 2em;
 		text-align: center;
 
 	}
 
 	.mobilenav a{
+		width: 49%;
 		font-size: 1em;
 		padding: 1em;	
-		width: 49.5%;
-		float: left;
 		background-color: #242523;
 		color: #fff;
-		margin: .05em;
+		float: left;
+		margin:.5%;
 	}
 
 	.mobilenav a:hover{
 		color: #fff;
 	}
+
 
 	.navbeige a:hover{
 		color: #242523;
@@ -322,7 +327,6 @@
 		background-color: #f7f0dd;
 		color: #242523;
 	}
-
 
 	.responsive img{
 		width: 100%
