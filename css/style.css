@@ -89,7 +89,7 @@ section{
 }
 
 .wrapper {
-	width: 75%;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
@@ -145,7 +145,8 @@ nav a:hover{
 
 .logo {
 	margin: 5em auto;
-	width: 50%;
+	max-width: 600px;
+	min-width: 300px;
 }
 
 .logo img {
@@ -178,26 +179,32 @@ nav a:hover{
 }
 
 .two-third {
-	width: 66%;
+	width: 66.66%;
 }
 
 .one-third {
-	width: 33%;
+	width: 33.33%;
 }
 
 #me {
 	background-color: #b3ccba;
+	margin: 0em auto;
 }
 
 #me img{
 	width: 100%;
-	padding: 2em 2em;
+	padding-left: 2em;
+}
+#me p{
+	font-size: 1.5em;
+	text-align: justify;
+
 }
 
 
 #me .two-third{
-	padding: 2em 2em;
-  	float: right;
+	padding-left: 12em;
+	padding-right: 2em;
 }
 
 
@@ -332,7 +339,7 @@ figure img {
 }
 
 .footerwrap{
-	width: 50%;
+	max-width: 600px;
 	display: block;
 	margin: 0em auto;
 	padding: 3em;

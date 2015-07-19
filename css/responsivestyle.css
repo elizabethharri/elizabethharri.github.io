@@ -1,27 +1,5 @@
 
-@media only screen and (max-width:1400px) {
-
-	#work .one-half{
-		padding: 3em 3em 0em 3em;
-		min-height: 53em;
-		margin: .5em;
-		width: 47%;
-	}
-
-	.wrapper {
-		width: 80%;
-	}
-
-	h3 {
-		font-size: 1.7em;
-}
-
-	.footerwrap{
-		width: 80%;
-
-	}
-
-@media only screen and (max-width:790px) {
+@media only screen and (max-width:850px) {
   
 	nav a{	
 	font-size: 1.2em;
@@ -71,11 +49,6 @@
 
 	}
 
-	.wrapper {
-		width: 90%;
-	}
-
-
 	figcaption h3{
 		line-height: 1.2em;
 		font-size: 1.4em;
@@ -98,10 +71,7 @@
 		font-size: 1.2em;
 	}
 
-	.logo {
-		margin: 0 auto;
-		width: 50%;
-	}
+
 	nav a{	
 		font-size: 1.1em;
 		padding: 0em 1em;
@@ -129,9 +99,6 @@
 		line-height: 1.5em;
 	}
 
-	.wrapper {
-		width: 80%;
-	}
 
 	#thoughts .one-third {
 
@@ -145,7 +112,6 @@
 
 		padding: 3em 3em 0em 3em;
 		width: 100%;
-		text-align: center;
 		margin: 1.5em auto;
 		min-height: 42em;
 		float: none;
@@ -164,7 +130,7 @@
 }
 
 
-@media only screen and (max-width:490px) {
+@media only screen and (max-width:550px) {
 
 	section{
 		padding: 3em 0em 3em 0em;
@@ -175,9 +141,9 @@
 	.grid{
 		float: none;
 	}
-	
-	.wrapper {
-		width: 85%;
+
+	#me p{
+		font-size: 1.3em;
 	}
 	
 	#me img{
@@ -209,9 +175,9 @@
 		background-color: rgba(247, 240, 221, 0.8);
 		opacity: 1;
 		position: absolute;
-		top: 70%;
+		bottom: 0;
 		width: 100%;
-		height: 3em;
+		height: 5em;
 		display: block;
 
 	}
@@ -232,13 +198,8 @@
 	
 	.logo{
 		
-		margin: 1em;
-		width: 60%;
+		margin: 1em auto;
 		padding: 0em;
-	}
-
-	.logo img {
-		width: 100%;
 	}
 
 	footer img{
@@ -249,9 +210,6 @@
 		font-size: 1em;
 	}
 
-	.footerwrap{
-		width: 100%;
-	}
 	
 	nav {
 		display: none;
