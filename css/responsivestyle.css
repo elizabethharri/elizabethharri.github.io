@@ -85,7 +85,7 @@
 	
 
 	#thoughts {
-		padding: 0em 4em;
+		padding: 4em 4em;
 	}
 	#thoughts .one-third {
 
@@ -121,6 +121,10 @@
 	
 	.grid{
 		float: none;
+	}
+
+	#life{
+		margin: 4em 2em;
 	}
 
 	#galley img{

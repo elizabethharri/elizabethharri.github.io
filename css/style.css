@@ -274,6 +274,7 @@ nav a:hover{
 }
 #life{
 	border-top: 1px solid rgba(67, 68, 68, 0.14);
+	border-bottom: 1px solid rgba(67, 68, 68, 0.14);
 }
 
 figure {
@@ -340,8 +341,8 @@ figure img {
 	margin-bottom: 2em;
 	box-shadow: 1px 1px 1px 1px rgba(136, 136, 136, 0.63);
 
-
 }
+
 
 #thoughts .one-third{
 
