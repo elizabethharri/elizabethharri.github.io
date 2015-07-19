@@ -1,3 +1,23 @@
+@media only screen and (max-width:1000px) {
+	
+	#me .one-third{
+		width: 60%;
+		float: none;
+		margin: 0 auto;
+		padding: 2em 2em;
+	}
+
+	#me .two-third{
+		float: none;
+		padding: 2em 5em;
+		width: 100%;
+		margin: 0 auto;
+
+	}
+
+
+}
+
 
 @media only screen and (max-width:850px) {
   
@@ -22,25 +42,6 @@
 		padding: 0em 3em;
 	}
 
-	#me img{
-	padding: 2em 2em;
-	}
-
-
-	
-	#me .one-third{
-		width: 60%;
-		float: none;
-		margin: 0 auto;
-	}
-
-	#me .two-third{
-		float: none;
-		padding: 2em 0em;
-		width: 90%;
-		margin: 0 auto;
-
-	}
 
 	figcaption h3{
 		line-height: 1.2em;
@@ -177,18 +178,9 @@
 
 @media only screen and (max-width:550px) {
 
-	#me{
-		padding-left: 3em;
-		padding-right: 3em;
-	}
 
 	#me p{
 		font-size: 1.2em;
-	}
-	
-	#me img{
-		padding: 0em;
-
 	}
 
 
