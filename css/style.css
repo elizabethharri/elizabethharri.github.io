@@ -81,6 +81,7 @@ header {
 	top: 0;
 	width: 100%;
 	background-color: rgba(36, 37, 35, 0.86);
+	z-index: 1;
 }
 
 section{

@@ -203,6 +203,7 @@ header {
 	background-color: rgb(36, 37, 35);
 	margin: 0em auto;
 	padding: 0em;
+	z-index: 1;
 }
 
 #splash {
