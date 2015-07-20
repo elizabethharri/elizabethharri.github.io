@@ -205,7 +205,6 @@ nav a:hover{
 
 #me p{
 	font-size: 1.5em;
-	text-align: justify;
 
 }
 
@@ -282,6 +281,7 @@ figure {
 	position: relative;
 	display: block;
 }
+
 
 figcaption {
 	background-color: rgba(247, 240, 221, 0.7);
