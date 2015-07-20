@@ -151,7 +151,7 @@
 		display: block;
 		opacity: 1;
 		width: 50%;
-		height: 4em;
+		height: auto;
 	}
 
 	figcaption h3{
