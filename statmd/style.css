@@ -2,104 +2,106 @@
 * {margin:0; padding:0; box-sizing:border-box;}
 
 
-body {
-	font-family: 'Allerta', sans-serif;
-	font-size: 16px;
-	color: #ffffff;
+	body {
+		font-family: 'Allerta', sans-serif;
+		font-size: 16px;
+		color: #ffffff;
 
-}
+	}
 
-h1 {
-	font-size: 4em;
-	padding-bottom: .5em;
-}
+	h1 {
+		font-size: 4em;
+		padding-bottom: .5em;
+	}
 
-h2{
-	font-size: 2.5em;
-}
+	h2{
+		font-size: 2.5em;
+	}
 
-h3{
-	font-size: 1.5em;
-	font-weight: lighter;
-	padding: 1em 0em 1em 0em;
-	color: #dc7927;
-	text-align: center;
-}
+	h3{
+		font-size: 1.5em;
+		font-weight: lighter;
+		padding: 1em 0em 1em 0em;
+		color: #dc7927;
+		text-align: center;
+	}
 
-p { 
-	font-size: 1.5em;
-	padding: 1em;
-}
+	p { 
+		font-size: 1.5em;
+		padding: 1em;
+	}
 
 
-.splash {
-	height: 37.5em;
-	background-image: url("images/backgroundimage.jpeg");
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-.splash-mobile {
-	display: none;
-}
+	.splash {
+		height: 37.5em;
+		background-image: url("images/backgroundimage.jpeg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.splash-mobile {
+		display: none;
+	}
 
-.one-half {	
-	width: 50%;
-	height: 37.5em;
-	float: right;
-	background-color: rgba(5, 151, 232, 0.74);
-}
+	.one-half {	
+		width: 50%;
+		height: 37.5em;
+		float: right;
+		background-color: rgba(5, 151, 232, 0.74);
+	}
 
-.text {
-	width: 90%;
-	padding: 5em 6em;
+	.text {
+		width: 90%;
+		padding: 5em 6em;
 
-}
-.text-mobile {
-	display: none;
-}
+	}
+	.text-mobile {
+		display: none;
+	}
 
-.info {
-	max-width: 1200px;
-	margin: 0em auto;
-	background-color: #f7931e;
-}
+	.info {
+		max-width: 1200px;
+		margin: 0em auto;
+		background-color: #f7931e;
+	}
 
-.clear {
-	clear:both;
-}
+	.clear {
+		clear:both;
+	}
 
-.mobile-footer {
-	display: none;
-}
+	.mobile-footer {
+		display: none;
+	}
 
-.mobile {
-	display: none;
-}
+	.mobile {
+		display: none;
+	}
 
-.logo {
-	width:60%;
-	float: left;
-}
+	.logo {
+		width:60%;
+		float: left;
+	}
 
-.logo img{
-	width: 100%;
-	padding: 2em;
-}
-.contact {
-	width: 40%;
-	float: right;
-	padding: 2em 2em 0em 2em;
+	.logo img{
+		width: 100%;
+		padding: 2em;
+	}
+	.contact {
+		width: 40%;
+		float: right;
+		padding: 2em 2em 0em 2em;
+	}
 }
 
 
 @media only screen and (max-width:1420px) {
+	
 	body {
 		font-size: 15px;
 	}
 
 	.text {
 		width: 100%;
-
+	}
 }
 
 @media only screen and (max-width:1200px) {
@@ -145,6 +147,7 @@ p {
 		
 	}
 
+
 	.splash-mobile img{
 		width: 100%;
 	}
@@ -166,6 +169,7 @@ p {
 		width: 100%;
 
 	}
+}
 
 @media only screen and (max-width:675px) {
 	body {
@@ -180,4 +184,4 @@ p {
 
 }
 
-
+}
