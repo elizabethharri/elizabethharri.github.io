@@ -155,7 +155,7 @@
 	.text-mobile {	
 		display: inline-block;
 		width: 100%;
-		padding: 6em;
+		padding: 5em;
 		background-color: rgb(5, 151, 232);
 		text-align: center;
 }
@@ -182,7 +182,10 @@
 		display: block;
 		max-width: 275px;
 
-}
+	}
+	h1{
+		font-size: 3em;
+	}
 
 
 }
